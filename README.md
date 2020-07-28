@@ -1,4 +1,4 @@
-## Issuance of invoice for clothing store system using Model-View-Controller (MVC) patterns and object-oriented programming
+## Issuance of invoice for clothing store system using Model-View-Controller (MVC) patterns and object-oriented programming with file persistence
 
 To help you to understand what does MVC mean, let's check its definition below:
 
@@ -15,3 +15,9 @@ Object-oriented programming (OOP) is a computer programming model that organizes
 
 ### Where can I find more informations about it?
 If you have gotten interested in that, click [here](https://searchapparchitecture.techtarget.com/definition/object-oriented-programming-OOP) to read more informations about it.
+
+## Last question
+
+### What is a persistent file? And how can I do that in Python?
+[Persistence](https://www.datastax.com/blog/2010/10/what-persistence-and-why-does-it-matter) is "the continuance of an effect after its cause is removed". In the context of storing data in a computer system, this means that the data survives after the process with which it was created has ended. In other words, for a data store to be considered persistent, it must write to non-volatile storage.
+  As a developer, you may sometimes need to send complex object hierarchies over a network or save the internal state of your objects to a disk or database for later use. To accomplish this, you can use a process called serialization, which is fully supported by the standard library thanks to the [Python pickle module](https://realpython.com/python-pickle-module/).
